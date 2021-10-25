@@ -24,6 +24,7 @@ def main(path: str):
     remove("tmp.txt")
 
 def installer(word, lib: list, speLib: dict):
+    
     for key in speLib:
         if key == word:
             word = speLib[key] 
@@ -32,7 +33,6 @@ def installer(word, lib: list, speLib: dict):
     
     
 def libInstaller(foundLib, anontherOne, toCopy):
-    
     
     copyfile(toCopy, "tmp.txt")
     
