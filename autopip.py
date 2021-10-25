@@ -6,7 +6,7 @@ lib = []
 
 speLib = {
     "tkinter" : "tk",
-    "pillow" : "pil"
+    "PIL" : "pillow"
 }
 
 
