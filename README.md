@@ -7,4 +7,5 @@ It works by trying to download everythings that can be a lib in the script (a lo
 
 
 To do:
--> add a db with some special lib
+
+  -> add a db with some special lib
