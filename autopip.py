@@ -4,6 +4,8 @@ from shutil import copyfile
 
 lib = []
 
+system("py -m ensurepip --upgrade") # Install pip
+
 def main(path: str):
     
     for root, directories, file in os.walk(path):
